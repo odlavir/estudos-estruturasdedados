@@ -29,8 +29,13 @@ public class exercicio2 {
     System.out.println("Lista impar - " + impar);
     System.out.println();
 
-    while (!(par.isEmpty() && impar.isEmpty())) {
+    while (!par.isEmpty()) {
       System.out.println("Par: " + par.pop());
+    }
+
+    System.out.println();
+
+    while (!impar.isEmpty()) {
       System.out.println("Impar: " + impar.pop());
     }
 
